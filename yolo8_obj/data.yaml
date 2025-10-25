@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['exit_sign', 'person']
+
+roboflow:
+  workspace: ruipu
+  project: yolov8-g4khc
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ruipu/yolov8-g4khc/dataset/1
